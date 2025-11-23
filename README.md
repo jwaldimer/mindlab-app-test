@@ -18,7 +18,7 @@ Here you can see an example of the app running in the test store:
 
 🎥 **Demo of the full integration:**
 
-[![Watch the video]](./mindlab-agets-test.mp4)
+[![Demo video]](./mindlab-agets-test.mp4)
 
 
 ---
