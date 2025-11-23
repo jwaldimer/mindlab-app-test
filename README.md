@@ -20,6 +20,10 @@ Here you can see an example of the app running in the test store:
 
 [![Demo video](./screenshot.png)](https://www.youtube.com/watch?v=0iizU9Dd0t0)
 
+<p align="center" width="100%">
+  <video src="https://www.youtube.com/watch?v=0iizU9Dd0t0" width="40%" controls></video>
+</p>
+
 ---
 
 ## **2. Project Structure**
