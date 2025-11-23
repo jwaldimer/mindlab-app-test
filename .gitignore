@@ -12,7 +12,7 @@ database.sqlite
 
 .env
 .env.*
-
+/web/.env
 /extensions/*/dist
 
 # Ignore shopify files created during app dev
