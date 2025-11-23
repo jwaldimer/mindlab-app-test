@@ -26,17 +26,16 @@ https://github.com/user-attachments/assets/1f50f1d8-219c-4643-9cf1-59c563c82082
 mindlab-app-test/
 └── web/                     # Root directory for the app
     ├── server.js            # Express backend entrypoint
-    ├── routes/              # API routes for auth, agents, widget loader
+    ├── routes/              # API routes for auth, agents, widget
     ├── models/              # Sequelize models
-    ├── controllers/         # pp controllers
+    ├── controllers/         # Controllers for each route
     ├── services/            # Shopify + Mindlab integration services
     ├── utils/
-    ├── frontend/            # React SPA (UI for agent listing & selection)
+    ├── frontend/            # React project
     │   ├── src/
-    │   └── dist/            # Production build
-    ├── public/              # Static assets (optional)
+    │   └── dist/
+    ├── public/
     ├── package.json
-    ├── demo.mp4             # Demo video of the app in action (add your file here)
     └── README.md
 ```
 
