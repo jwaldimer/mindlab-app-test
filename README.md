@@ -16,9 +16,9 @@ This project was developed as a technical test and demonstrates:
 
 Here you can see an example of the app running in the test store:
 
-🎥 **Demo of the full integration:**
+🎥 **Clich to see the Demo of full integration:**
 
-<iframe width="600" height="500" src="https://www.youtube.com/embed/0iizU9Dd0t0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Demo video](./screenshot.png)](https://www.youtube.com/watch?v=0iizU9Dd0t0)
 
 ---
 
