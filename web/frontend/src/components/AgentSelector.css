@@ -1,0 +1,164 @@
+/* Scroll container */
+.agent-selector-scroll {
+  max-height: 650px;
+  overflow-y: auto;
+  padding: 10px 6px 10px 0;
+}
+
+/* Center loading spinner */
+.agent-list-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+}
+
+/* Grid layout for cards */
+.agent-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+/* Wrapper around each agent card */
+.agent-card {
+  height: 100%;
+  display: flex;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.agent-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.agent-card .Polaris-Card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Selected visual state */
+.agent-card--selected {
+  border: 1px solid #008060;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Card header: thumbnail + text */
+.agent-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.agent-card-header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Name row */
+.agent-name {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.agent-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Description text */
+.agent-description {
+  color: #6d7175;
+  margin: 4px 0;
+}
+
+.agent-description,
+.agent-metadata {
+  flex-shrink: 0;
+}
+
+/* Metadata text */
+.agent-metadata {
+  color: #9c9ca1;
+  font-size: 12px;
+  margin: 2px 0 0 0;
+}
+
+/* Button row */
+.agent-card-actions {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Empty state */
+.agent-empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #6d7175;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* Optional: scrollbar styling */
+.agent-selector-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.agent-selector-scroll::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 3px;
+}
+
+/* -------- Modal Layout -------- */
+
+.agent-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Header: picture + name + badge */
+.agent-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.agent-modal-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.agent-modal-name {
+  margin: 0;
+  font-size: 16px;
+}
+
+.agent-modal-metadata p {
+  margin: 2px 0;
+  color: #6d7175;
+  font-size: 14px;
+}
+
+.agent-modal-description p {
+  margin-top: 8px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.agent-modal-question {
+  margin-top: 8px;
+  font-size: 14px;
+}
