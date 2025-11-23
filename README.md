@@ -12,7 +12,18 @@ This project was developed as a technical test and demonstrates:
 
 ---
 
-## **1. Project Structure**
+## **1. Demo Video**
+
+Here you can see an example of the app running in the test store:
+
+🎥 **Demo of the full integration:**
+
+[![Watch the video]](./mindlab-agets-test.mp4)
+
+
+---
+
+## **2. Project Structure**
 
 ```
 mindlab-app-test/
@@ -20,7 +31,9 @@ mindlab-app-test/
     ├── server.js            # Express backend entrypoint
     ├── routes/              # API routes for auth, agents, widget loader
     ├── models/              # Sequelize models
+    ├── controllers/         # pp controllers
     ├── services/            # Shopify + Mindlab integration services
+    ├── utils/
     ├── frontend/            # React SPA (UI for agent listing & selection)
     │   ├── src/
     │   └── dist/            # Production build
@@ -32,7 +45,7 @@ mindlab-app-test/
 
 ---
 
-## **2. Features Overview**
+## **3. Features Overview**
 
 ### ✅ **Mindlab Authentication**
 
@@ -90,7 +103,7 @@ This is embedded in Shopify through a theme snippet:
 
 ---
 
-## **3. Installation & Development Setup**
+## **4. Installation & Development Setup**
 
 ### **Backend**
 
@@ -110,7 +123,7 @@ npm run dev
 
 ---
 
-## **4. Environment Variables**
+## **5. Environment Variables**
 
 Create a `.env` file under `/web` with:
 
@@ -129,7 +142,7 @@ SCOPES
 
 ---
 
-## **5. Shopify Integration Flow**
+## **6. Shopify Integration Flow**
 
 ### 1️⃣ Install the app in Shopify
 
@@ -157,7 +170,7 @@ Injected script loads UMD widget and renders it into:
 
 ---
 
-## **6. API Endpoints Summary**
+## **7. API Endpoints Summary**
 
 ### **Authentication**
 
@@ -177,17 +190,6 @@ POST /api/v1/mindlab/agents/select
 ```
 GET /api/v1/mindlab/widget/widget.js
 ```
-
----
-
-## **7. Demo Video**
-
-Here you can see an example of the app running in the test store:
-
-🎥 **Demo of the full integration:**
-
-[![Watch the video]](./mindlab-agets-test.mp4)
-
 
 ---
 
@@ -214,12 +216,12 @@ This project is designed as a technical test, demonstrating:
 
 ---
 
-## Author
+## **10. Author**
 
 Developed by Jorge Gómez [@jwaldimer](https://github.com/jwaldimer) as part of a technical assessment for MindLab.
 
 ---
 
-## **10. License**
+## **11. License**
 
 This repository is for technical assessment and demonstration purposes only.
