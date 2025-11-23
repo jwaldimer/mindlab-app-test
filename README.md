@@ -18,8 +18,7 @@ Here you can see an example of the app running in the test store:
 
 🎥 **Demo of the full integration:**
 
-[![Demo video]](./mindlab-agets-test.mp4)
-
+<iframe width="600" height="500" src="https://www.youtube.com/embed/0iizU9Dd0t0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
