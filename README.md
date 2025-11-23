@@ -14,15 +14,9 @@ This project was developed as a technical test and demonstrates:
 
 ## **1. Demo Video**
 
-Here you can see an example of the app running in the test store:
+🎥 Here you can see an example of the app running in the test store:
 
-🎥 **Clich to see the Demo of full integration:**
-
-[![Demo video](./screenshot.png)](https://www.youtube.com/watch?v=0iizU9Dd0t0)
-
-<p align="center" width="100%">
-  <video src="https://www.youtube.com/watch?v=0iizU9Dd0t0" width="40%" controls></video>
-</p>
+https://github.com/user-attachments/assets/1f50f1d8-219c-4643-9cf1-59c563c82082
 
 ---
 
